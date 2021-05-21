@@ -26,9 +26,7 @@
 
       .flex-item {
         width: 50%;
-        flex-basis: auto;
-        /* auto = width: 50% 와 같음 */
-        /* 기본값이 auto 라서 생략가능 */
+        flex: 0 auto;
       }
     }
   </style>
@@ -43,6 +41,7 @@
     <div class="flex-item">AAAA</div>
     <div class="flex-item">BBBB</div>
     <div class="flex-item">CCCC</div>
+    <div class="flex-item">DDDD</div>
     <div class="flex-item">DDDD</div>
   </div>
 </body>
