@@ -17,6 +17,19 @@
     .flex-item {
       flex: 1 auto;
     }
+
+    @media (min-width: 600px) {
+      .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .flex-item {
+        width: 50%;
+        flex-basis: auto;
+        /* auto = width: 50% 와 같음 */
+      }
+    }
   </style>
 </head>
 
