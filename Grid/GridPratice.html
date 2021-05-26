@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CSS Grid</title>
+  <link rel="stylesheet" href="default.css" />
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* grid-template-columns: repeat(3, 1fr 2fr 1fr);*/
+      /* fraction */
+      /* grid-template-rows: 200px 200px auto;
+      grid-template-rows: repeat(2, 1fr);
+      height: 80vh; */
+    }
+
+    .grid-item {}
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, explicabo.
+    </div>
+    <div class="grid-item">B</div>
+    <div class="grid-item">C</div>
+    <div class="grid-item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus quam aut nemo vel incidunt fugiat
+      assumenda, ipsam, repudiandae mollitia amet quasi reprehenderit delectus nihil cum tenetur temporibus consequuntur
+      odio?
+    </div>
+    <div class="grid-item">E</div>
+    <div class="grid-item">F</div>
+    <div class="grid-item">G</div>
+    <div class="grid-item">H</div>
+    <div class="grid-item">I</div>
+  </div>
+</body>
+
+</html>
